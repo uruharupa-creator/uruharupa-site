@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>うるはるぱのホームページ</title>
+
+  <style>
+    body {
+      background: #fff7fb;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #ff8fc7;
+      font-size: 40px;
+    }
+
+    h2 {
+      color: #ff8fc7;
+      margin-top: 40px;
+    }
+
+    p {
+      color: #333;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* 🎥 動画横並び */
+    .video-container {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    /* 🎥 動画サイズ＆デザイン */
+    .video-container iframe {
+      width: 300px;
+      height: 170px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    /* ✨ ホバーで拡大 */
+    .video-container iframe:hover {
+      transform: scale(1.05);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background: #ff8fc7;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🫧うるはるぱ🫧</h1>
+  <p>君を笑顔にするために活動中！</p>
+
+  <img src="image.jpg" alt="うるはるぱの画像">
+
+  <!-- プロフィール -->
+  <div class="box">
+    <h2>プロフィール</h2>
+    <p>
+      海を捨てたウーパールーパーVTuber🫧<br>
+      元気と癒しを届けるよ！<br><br>
+      好き：ゲーム / おしゃべり / 楽しいこと<br>
+      夢：みんなを笑顔にすること！
+    </p>
+  </div>
+
+  <!-- SNS -->
+  <div class="box">
+    <h2>SNS</h2>
+    <a href="https://www.youtube.com/@UruhaRupa" target="_blank">
+      🫧 YouTubeはこちら
+    </a>
+  </div>
+
+  <!-- 動画 -->
+  <div class="box">
+    <h2>おすすめ動画</h2>
+
+    <div class="video-container">
+
+      <iframe
+        src="https://www.youtube.com/embed/i93bkn6Q9QU"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        src="https://www.youtube.com/embed/AH-OgXmhb_g"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        src="https://www.youtube.com/embed/kXRteBu_g14"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
